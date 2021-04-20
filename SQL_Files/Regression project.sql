@@ -126,6 +126,7 @@ and grade >= 5
 and price < 300000;
 
 	#12. Your manager wants to find out the list of properties whose prices are twice more than the average of all the properties in the database. Write a query to show them the list of such properties. You might need to use a sub query for this problem.
+			# to make this query work you have to change setting in MySQL: Preferences -> SQL Editor -> MySQL Session -> increase DBMS connection keep-alive interval (in seconds):-> to 6000
 
 select id, price from house_price_data
 where (select avg(price) from house_price_data
@@ -141,7 +142,6 @@ having price > 2*avg(price))
 order by price DESC;
 
 	#14. Most customers are interested in properties with three or four bedrooms. What is the difference in average prices of the properties with three and four bedrooms?
-
 SELECT round((Select avg(price) from house_price_data where bedrooms=4) - (SELECT avg(price) from house_price_data where bedrooms=3), 1) as difference;
 
 	#15. What are the different locations where properties are available in your database? (distinct zip codes)
