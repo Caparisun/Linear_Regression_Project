@@ -25,25 +25,25 @@ After our first approach, we finetuned the model to increase the precision of ou
 We will provide a quick summary of the solutions further below, but first we want to outline our process.
 
 ## Method and approach
-In our inital meeting we discussed our personal strengths and weaknesses regarding the tools and methods that have to be applied. We quickly realised that we have different strengths and favourite tasks, so dividing them between us came very natural to the group. We set up a trello board to track the tasks and our progress, the final board can be viewed [here](https://trello.com/b/8Yu5xqIA/fleur-delacour).
+
+Our Process in a picture: 
+
+![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/Process.jpg)
 
 It was important to us to keep a flexible structure and an agile approach, to be able to handle bugs and errors that occured during the process.
+To achieve this we set up a trello board and tracked the tasks and our progress, the final board can be viewed [here](https://trello.com/b/8Yu5xqIA/fleur-delacour).
+The workflow and division of tasks came very natural to the group, since we could apply our strengths indivdually.
 
-We agreed on splitting the SQL questions, the initial exploration of the data in python and the visualisation in tableau between us, and deliver those tasks latest by tuesday evening and putting the pieces and insights we gained on our tasks together in a group meeting.
-
-During this second group meeting, we decided on what variables to choose for our machine learning model. This step was very efficient because everyone of us could provide some unique insights to specific parts of the data, making the decision on what columns to use for the linear regression very smooth.
-
-Afterwards, we wrangled the data together, so that everyone has insights on how our model operates.
-Once we sucessfuly deployed the first model, we split tasks and focus again. The model had to be refined, the repo needed cleaning and comments and solutionfiles added to provide better understanding of the code. Also a Tableau dashboard needed to be created and integrated into our story.
-
-Having completed all of the above tasks and answered all the important questions, we then focused on creating a engaging story and presentation for the consumers of the data. Overall, we needed 5 days to complete the project.
 
 ## Review of the outcomes
-Using SQL, Tableau and various techniques in Python we were able to gain  insight into the real estate market of Washington state. 
-Some things were expected, such as property value being in corrolation to the size of the property. Some other findings were quite unpredictable, one example of that would be that the number of bedrooms in a unit was not good for predicting the actual price of the property - a practice that is quite usual in actual real estate valuations.
+Using SQL, Tableau and various techniques in Python we were able to gain lots of insight into the real estate market of Washington state. 
+Some things were expected, such as property value having a correlation to the size of the property. 
+Some other findings were quite unpredictable, one example of that would be that the number of bedrooms in a unit was not good for predicting the actual price of the property - a practice that is quite usual in actual real estate valuations.
 
 Using various modelling techniques we were able to create different models that are able to predict the price of a home with only a few features.
 We do believe that the model is quite sufficient, but can't be used solely to predict the actual salesprice of a home without viewing it in reality.
+
+ONE MORE SENTENCE ABOUT MODEL ACCURACY AND FUTURE TO DOS TO INCREASE PRECISION OF THE MODEL
 
 ## Insights to the data
 Here are some pictures of our exploration of the data in python
@@ -67,6 +67,17 @@ As expected, price and living space appear positivly correlated
 
 We also used a correlationmatrix to identify variables that basically mean the same things, and decided to only move forward with one of the variables that were correlated to another.
 
-## Insights to the with tableau
+## Insights to the data with tableau
 
 lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+
+## Insights using SQL
+
+Since the questions and answer regarding the SQL database are quite complex, I provided in-depth insights in a different file that can be found here.
+We imported the data using MySWL workbench, but ran into some trouble regarding the time to import the data. We tried to load them on a different machine, which went a lot faster, and shared the dump file with the project group to allow quick creation of the database. The questions, queries and answers can be found in the file mentioned above.
+
+***
+
+We hope this project delivers easy to digest insights on the real estate market and the features of a building that have an impact on pricing of units that are for sale.
+
+
