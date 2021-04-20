@@ -1,7 +1,7 @@
 # SQL questions for the real estate database
 
-In this file, we are presenting the SQL questions and answers in a easy to read file.
-To execute the queries, please refer to the SQL-file that is available [here](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/SQL_Files/Regression%20project.sql).
+In this file, we are presenting the SQL questions and answers in an easy-to-read file.
+To execute the queries, please refer to the SQL file that is available [here](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/SQL_Files/Regression%20project.sql).
 
 
 ### 1.) Create a database called house_price_regression.
@@ -10,7 +10,7 @@ To execute the queries, please refer to the SQL-file that is available [here](ht
 CREATE DATABASE house_price_regression;
 ```
 
-### 2.) Create a table house_price_data with the same columns as given in the csv file. Please make sure you use the correct data types for the columns.
+### 2.) Create a table house_price_data with the same columns as given in the CSV file. Please make sure you use the correct data types for the columns.
 
 ```
 CREATE TABLE house_price_data (
@@ -37,15 +37,15 @@ CREATE TABLE house_price_data (
     price int);
 ```
 
-### 3.) Import the data from the csv file into the table. 
-Before you import the data into the empty table, make sure that you have deleted the headers from the csv file. To not modify the original data, if you want you can create a copy of the csv file as well. Note you might have to use the following queries to give permission to SQL to import data from csv files in bulk:
-SHOW VARIABLES LIKE 'local_infile'; -- This query would show you the status of the variable ‘local_infile’. If it is off, use the next command, otherwise you should be good to go
+### 3.) Import the data from the CSV file into the table. 
+Before you import the data into the empty table, make sure that you have deleted the headers from the CSV file. To not modify the original data, if you want you can create a copy of the CSV file as well. Note you might have to use the following queries to permit SQL to import data from CSV files in bulk:
+SHOW VARIABLES LIKE 'local_infile'; -- This query would show you the status of the variable ‘local_infile’. If it is off, use the next command, otherwise, you should be good to go
 
 ```
 SHOW VARIABLES LIKE 'local_infile'; 
 SET GLOBAL local_infile = 1;
 ```
-Further import done with the csv import wizard
+Further import was done with the CSV import wizard
 
 ### 4.) Select all the data from table house_price_data to check if the data was imported correctly
 
@@ -60,7 +60,7 @@ alter table house_price_data drop column date;
 select * from house_price_data;
 ```
 
-### 6.) Use sql query to find how many rows of data you have.
+### 6.) Use SQL query to find how many rows of data you have.
 
 ```
 select count(*) from house_price_data;
@@ -105,7 +105,7 @@ from house_price_data
 order by grade;
 ```
    
-### 8.) Arrange the data in a decreasing order by the price of the house. Return only the IDs of the top 10 most expensive houses in your data.
+### 8.) Arrange the data in decreasing order by the price of the house. Return only the IDs of the top 10 most expensive houses in your data.
 
 ```
 select id, price from house_price_data
@@ -113,15 +113,15 @@ order by price DESC
 limit 10;
 ```
 
-### 9.)What is the average price of all the properties in your data?
+### 9.) What is the average price of all the properties in your data?
 
 ```
 select round(avg(price), 1) as 'average price' from house_price_data;
 ```
 
-### 10.) In this exercise we will use simple group by to check the properties of some of the categorical variables in our data
+### 10.) In this exercise, we will use a simple group by to check the properties of some of the categorical variables in our data
 
-- What is the average price of the houses grouped by bedrooms? The returned result should have only two columns, bedrooms and Average of the prices. Use an alias to change the name of the second column.
+- What is the average price of the houses grouped by bedrooms? The returned result should have only two columns, bedrooms, and the average of the prices. Use an alias to change the name of the second column.
 
 ```
 select bedrooms, round(avg(price),1) as 'average_price' from house_price_data
@@ -129,7 +129,7 @@ group by bedrooms
 order by bedrooms DESC;
 ```
 
-- What is the average sqft_living of the houses grouped by bedrooms? The returned result should have only two columns, bedrooms and Average of the sqft_living. Use an alias to change the name of the second column.
+- What is the average sqft_living of the houses grouped by bedrooms? The returned result should have only two columns, bedrooms, and the Average of the sqft_living. Use an alias to change the name of the second column.
 
 ```
 select bedrooms, round(avg(sqft_living),0) as 'average_sqft_living' from house_price_data
@@ -137,14 +137,14 @@ group by bedrooms
 order by bedrooms DESC;
 ```
 
-- What is the average price of the houses with a waterfront and without a waterfront? The returned result should have only two columns, waterfront and Average of the prices. Use an alias to change the name of the second column.
+- What is the average price of the houses with a waterfront and without a waterfront? The returned result should have only two columns, waterfront, and Average of the prices. Use an alias to change the name of the second column.
 - 
 ```
 select waterfront as "Waterfront: 0 = no, 1 = yes", round(avg(price),1) as 'average_front_type' from house_price_data
 group by waterfront;
 ```
 
-- Is there any correlation between the columns condition and grade? You can analyse this by grouping the data by one of the variables and then aggregating the results of the other column. Visually check if there is a positive correlation or negative correlation or no correlation between the variables.
+- Is there any correlation between the column's condition and grade? You can analyze this by grouping the data by one of the variables and then aggregating the results of the other column. Visually check if there is a positive correlation or negative correlation or no correlation between the variables.
 ```
 select house_condition, grade from house_price_data
 group by grade
@@ -154,7 +154,7 @@ select house_condition, grade from house_price_data
 group by house_condition
 order by house_condition ASC;
 ```
-The results of the two queries suggest that the better a house's condition, the higher its grade. However, in the first one there are outliers.
+The results of the two queries suggest that the better a house's condition, the higher its grade. However, in the first one, there are outliers.
 
 
 ### 11.) One of the customers is only interested in the following houses:
@@ -163,8 +163,8 @@ Number of bedrooms either 3 or 4
 Bathrooms more than 3
 One Floor
 No waterfront
-Condition should be 3 at least
-Grade should be 5 at least
+The condition should be 3 at least
+The grade should be 5 at least
 Price less than 300000
 For the rest of the things, they are not too concerned. Write a simple query to find what are the options available for them?
 ```
@@ -178,7 +178,7 @@ and grade >= 5
 and price < 300000;
 ```
 
-### 12.) Your manager wants to find out the list of properties whose prices are twice more than the average of all the properties in the database. Write a query to show them the list of such properties. You might need to use a sub query for this problem.
+### 12.) Your manager wants to find out the list of properties whose prices are twice more than the average of all the properties in the database. Write a query to show them the list of such properties. You might need to use a subquery for this problem.
 ```
 select id, price from house_price_data
 where (select avg(price) from house_price_data
@@ -195,7 +195,7 @@ having price > 2*avg(price))
 order by price DESC;
 ```
 
-### 14.) Most customers are interested in properties with three or four bedrooms. What is the difference in average prices of the properties with three and four bedrooms?
+### 14.) Most customers are interested in properties with three or four bedrooms. What is the difference in the average prices of the properties with three and four bedrooms?
 ```
 SELECT round((Select avg(price) from house_price_data where bedrooms=4) from (SELECT avg(price) from house_price_data where bedrooms=3), 1) as difference;
 
@@ -207,7 +207,7 @@ select distinct zipcode AS "distinct zip codes"
 from house_price_data;
 ```
 
-### 16.)Show the list of all the properties that were renovated.
+### 16.) Show the list of all the properties that were renovated.
 ```
 select id, yr_renovated AS "Renovated Properties' renovation year" 
 from house_price_data
@@ -220,7 +220,6 @@ order by yr_renovated ASC;
 SELECT * FROM house_price_data
 ORDER BY price DESC LIMIT 1 offset 10;
 ```
-
 
 ***
 
