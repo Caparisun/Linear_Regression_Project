@@ -26,6 +26,7 @@ We will provide a quick summary of the solutions further below, but first we wan
 
 ## Method and approach
 In our inital meeting we discussed our personal strengths and weaknesses regarding the tools and methods that have to be applied. We quickly realised that we have different strengths and favourite tasks, so dividing them between us came very natural to the group. We set up a trello board to track the tasks and our progress, the final board can be viewed [here](https://trello.com/b/8Yu5xqIA/fleur-delacour).
+
 It was important to us to keep a flexible structure and an agile approach, to be able to handle bugs and errors that occured during the process.
 
 We agreed on splitting the SQL questions, the initial exploration of the data in python and the visualisation in tableau between us, and deliver those tasks latest by tuesday evening and putting the pieces and insights we gained on our tasks together in a group meeting.
