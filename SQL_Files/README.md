@@ -1,4 +1,4 @@
-# SQL questions for the real estate database
+# Business Questions About The Data Answered With SQL
 
 In this file, we are presenting the SQL questions and answers in an easy-to-read file.
 To execute the queries, please refer to the SQL file that is available [here](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/SQL_Files/Regression%20project.sql).
