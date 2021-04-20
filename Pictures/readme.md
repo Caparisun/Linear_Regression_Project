@@ -1,1 +1,1 @@
-# In this folder we saved the pictures used in the repository.
+# In This Folder We Saved The Pictures Used In The Repository.
