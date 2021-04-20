@@ -14,13 +14,16 @@ Finally, the company wanted to predict the prices of real estate units with the 
 We achieved this by applying multiple linear regression algorithms after cleaning and wrangling the data with python in Jupyter Notebook.
 After our first approach, we finetuned the model to increase the precision of our predictions.
 
+After our analysis was completed, we delivered our insights in a 5-minute presentation, focussing on the business implications of our results. 
+
 ## Deliverables
 - Slides with the output with the business implications: here
 - A live presentation of our conclusions: Recorded live and uploaded later to the repo
-- Questions and answers using SQL: Our SQL-file
+- Questions and answers using SQL: Our [SQL-file](https://github.com/Caparisun/Linear_Regression_Project/blob/master/SQL_Files/Regression%20project.sql) and the [solutions](https://github.com/Caparisun/Linear_Regression_Project/blob/master/SQL_Files/README.md)
 - A Tableau dashboard: here
-- Exploration of the data: Jupyter Notebook
-- Applying the models: Jupyter Notebook
+- Exploration of the data: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/1.basic_data_exploration.ipynb)
+- Data cleaning and wrangling: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/2.Datawrangling.ipynb)
+- Applying the models: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/3.Applying_Model.ipynb)
 
 We will provide a quick summary of the solutions further below, but first, we want to outline our process.
 
@@ -37,22 +40,29 @@ To achieve this we set up a Trello board and tracked the tasks and our progress,
 The workflow and division of tasks came very naturally to the group since we could apply our strengths individually.
 
 
-## Review of the outcomes
-Using SQL, Tableau, and various techniques in Python we were able to gain lots of insight into the real estate market of Washington state. 
-Some things were expected, such as property value having a correlation to the size of the property. 
-Some other findings were quite unpredictable, one example of that would be that the number of bedrooms in a unit was not good for predicting the actual price of the property - a practice that is quite usual in actual real estate valuations.
+# Review of the outcomes
+Using SQL, Tableau, and various techniques in Python we were able to gain lots of insights into the real estate market of Washington state, USA. 
+Some things were expected, such as property value correlating with the size of the property and the overall condition. 
+Some other findings were unexpected, one example of that would be that the number of bedrooms in a unit was not good for predicting the actual price of the property - a practice that is quite usual in actual real estate valuations.
 
-Using various modeling techniques we were able to create different models that are able to predict the price of a home with only a few features.
-We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing it in reality.
+Using various modeling techniques we were able to create different models that can predict the price of a home with only a few features.
 
-ONE MORE SENTENCE ABOUT MODEL ACCURACY AND FUTURE TO DOS TO INCREASE PRECISION OF THE MODEL
+#### The models we applied are:
+- A linear regression model with an R2 score of 0.6237
+- Polynomial regression model with an R2 score of 0.6037
+- K nearest neighbors model with an R2 score of 0.558
+ 
+We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing the home in reality. Variables that have a high impact on prices like the neighborhood and location were not scored in the dataset and are therefore excluded from the model.
 
-## Insights to the data
+To increase the precision of the model, further todos would be further removal of outliers and finding a normalization algorithm that can be applied in a model-beneficiary way. The data is prone to overfitting, therefore we want to remind being cautious of overfitting the data and increasing the number of false positives.
+
+
+## Insights into the data
 Here are some pictures of our exploration of the data in python
 
 A plot of price, condition, and grade of the real estate:
 What sparked our interest in this plot was the assumption, that a high grade and a high condition are correlated with another, which appears to be true.
-It was also interesting to see, that there was no low-condition/high-grade cluster, and high prices usually are correlated with higher grades and higher prices, meaning a well-kept real estate is a pricey one.
+Furthermore, it was also interesting to see, that there was no low-condition/high-grade cluster, and high prices usually are correlated with higher grades and higher prices, meaning a well-kept real estate is a pricey one.
 
 ![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/priceconditiongrade.png)
 
@@ -67,7 +77,7 @@ As expected, price and living space appear positively correlated
 
 ![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/sqftprice.png)
 
-We also used a correlation matrix to identify variables that basically mean the same things and decided to only move forward with one of the variables that were correlated to another.
+We also used a correlation matrix to identify variables that mean the same things and decided to only move forward with one of the variables that were correlated to another.
 
 ## Insights to the data with tableau
 
@@ -80,6 +90,10 @@ We imported the data using MySQL workbench but ran into some trouble regarding t
 
 ***
 
-We hope this project delivers easy-to-digest insights on the real estate market and the features of a building that have an impact on the pricing of units that are for sale.
 
+Thank you for your time!
+We hope that our insights provide detailed answers to the questions asked. If there are any further questions, please don't hesitate to reach out!
+
+All the best,
+Francisco, Federico, Thamo
 
