@@ -1,7 +1,7 @@
 # SQL questions - regression
 
 In this file, we are presenting the SQL questions and answers in a easy to read file.
-To execute the queries, please refer to the SQL-file that is available here.
+To execute the queries, please refer to the SQL-file that is available [here](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/SQL_Files/Regression%20project.sql).
 ***
 
 ### 1.) Create a database called house_price_regression.
