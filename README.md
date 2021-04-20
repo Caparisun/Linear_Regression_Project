@@ -46,4 +46,27 @@ Using various modelling techniques we were able to create different models that 
 We do believe that the model is quite sufficient, but can't be used solely to predict the actual salesprice of a home without viewing it in reality.
 
 ## Insights to the data
+Here are some pictures of our exploration of the data in python
 
+A plot of price, condition and grade of the real estate:
+What sparked our interested in this plot was the assumption, that a high grade and a high condition are correlated with another, which appears to be true.
+It was also interesting to see, that there was no low-condition/high-grade cluster, and high prices usually are correlated with higher grades and higher prices, meaning a well-kept real estate is a pricey one.
+
+![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/priceconditiongrade.png)
+
+
+The distribution of a few important variables to our model:
+Even though some of our variables were heavily skewedm we decided to keep outliers and scaling of these variables the way they are. We made this decision based on our experience with real estate markets, where outliers and skewed data usually have a meaning to them, and we didn't want to artificially change the influence of these variables to our model.
+
+![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/ditribution.png)
+
+The relationship of price and living space of a unit:
+As expected, price and living space appear positivly correlated
+
+![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/sqftprice.png)
+
+We also used a correlationmatrix to identify variables that basically mean the same things, and decided to only move forward with one of the variables that were correlated to another.
+
+## Insights to the with tableau
+
+lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
