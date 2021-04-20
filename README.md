@@ -31,7 +31,9 @@ Our Process in a picture:
 ![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/Process.jpg)
 
 It was important to us to keep a flexible structure and an agile approach, to be able to handle bugs and errors that occured during the process.
+
 To achieve this we set up a trello board and tracked the tasks and our progress, the final board can be viewed [here](https://trello.com/b/8Yu5xqIA/fleur-delacour).
+
 The workflow and division of tasks came very natural to the group, since we could apply our strengths indivdually.
 
 
