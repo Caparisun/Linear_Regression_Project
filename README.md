@@ -49,9 +49,19 @@ Using various modeling techniques we were able to create different models that c
 
 #### The models we applied are:
 - A linear regression model with an R2 score of 0.6237
+
+![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/linear.png)
+
 - Polynomial regression model with an R2 score of 0.6037
+
+![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/polynomal.png)
+
 - K nearest neighbors model with an R2 score of 0.558
  
+![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/knn.png)
+ 
+
+
 We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing the home in reality. Variables that have a high impact on prices like the neighborhood and location were not scored in the dataset and are therefore excluded from the model.
 
 To increase the precision of the model, further todos would be further removal of outliers and finding a normalization algorithm that can be applied in a model-beneficiary way. The data is prone to overfitting, therefore we want to remind being cautious of overfitting the data and increasing the number of false positives.
