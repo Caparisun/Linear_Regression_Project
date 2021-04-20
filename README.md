@@ -39,7 +39,7 @@ Once we sucessfuly deployed the first model, we split tasks and focus again. The
 Having completed all of the above tasks and answered all the important questions, we then focused on creating a engaging story and presentation for the consumers of the data. Overall, we needed 5 days to complete the project.
 
 ## Review of the outcomes
-Using SQL, Tableau and various techniques in Python we were able to gain various insight into the real estate market of Washington state. 
+Using SQL, Tableau and various techniques in Python we were able to gain  insight into the real estate market of Washington state. 
 Some things were expected, such as property value being in corrolation to the size of the property. Some other findings were quite unpredictable, one example of that would be that the number of bedrooms in a unit was not good for predicting the actual price of the property - a practice that is quite usual in actual real estate valuations.
 
 Using various modelling techniques we were able to create different models that are able to predict the price of a home with only a few features.
