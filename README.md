@@ -116,6 +116,7 @@ We imported the data using MySQL workbench but ran into some trouble regarding t
 
 ***
 
+## Last words
 
 Thank you for your time!
 We hope that our insights provide detailed answers to the questions. If there are any further questions, please don't hesitate to reach out!
