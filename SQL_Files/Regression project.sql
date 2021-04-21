@@ -39,8 +39,6 @@ SET GLOBAL local_infile = 1;
 #Done with Import wizard
 
 	#4. Select all the data from table house_price_data to check if the data was imported correctly
-use estate;
-
 
 select * from house_price_data;
 
@@ -49,7 +47,7 @@ select * from house_price_data;
     
 alter table house_price_data drop column date;
 
-select * from house_price_data;
+select * from house_price_data limit 10;
 
 	#6. Use sql query to find how many rows of data you have.
     
