@@ -20,9 +20,11 @@ State your observation for each one of those graphs. Do you see any trends in pr
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/pricevsgrade.png)
 ***
 
-'''
+```
+
 Insight 1
-'''
+```
+
 
 
 #### 3.) Draw scatter plots for price vs. sqft_above, price vs. sqft_basement, price vs. living15, price vs. sqft_lot15.
