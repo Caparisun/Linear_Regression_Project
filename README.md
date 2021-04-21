@@ -92,7 +92,7 @@ This enables the management to make investment decisions in cases were the data 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/knn1.png)
  ***
 
-#### - We also applied the same models to a normalized dataframe, but that did not have an impact on the predictions and R2 scores.
+#### We also applied the same models to a normalized dataframe, but that did not have an impact on the predictions and R2 scores.
 Since we had some time towards the end of the deadline, we decided to run the same models but with the variables rescaled in a way that all values are between 0 and 1. The expected result was, that this will increase precision of the model, since the algorithm tends to give more weight to higher numbers.
 However, it turned out, that the impact is negligible. For the KNN approach, the normalized dataframe produced ambiguous data.
 The results can be viewed in this [notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/4.Iteration_normalized.ipynb)
