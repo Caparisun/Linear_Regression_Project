@@ -16,22 +16,27 @@ We used Tableau to create a story that is engaging and delivers all insights. Th
 ***
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/pricevsgrade.png)
 ***
+
 3.) Draw scatter plots for price vs. sqft_above, price vs. sqft_basement, price vs. living15, price vs. sqft_lot15.
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/scatterplots.png)
 ***
+
 4.) Identify using tableau which state data is presented to you. Use latitude (generated), longitude (generated), and zip code for this. Color code the zip codes based on the prices to see which areas are more expensive than the others.
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/map1.png)
 ***
+
 5.) Create a plot to check which are the more selling properties based on the number of bedrooms in the house. Create a plot of bedrooms vs. count of data points.
 
 
 ***
+
 6.) We want to see the trend in price of houses based on the year built. From our previous plot, we know that most of our customers are interested in three and four bedroom houses. Create a filter on bedroom feature to select those properties and compare the trends in prices using line charts.
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/priceperdecade.png)
 ***
+
 7.) Create calculated field year_built_bins for the column year_built by creating buckets as follows, for houses built between 1900 and 2000 - category A, for houses built between 2000 and 2010 - category B, and for houses built after 2010 - category C. Use IF-ELSE statement to create the bins/buckets. Compare the prices of houses for the three categories.
 
 8.) Now we want to deep dive into the categories we created in the last question. Let’s see how many properties are in each of the categories. Indicate the numbers as labels on each of the three categories.
