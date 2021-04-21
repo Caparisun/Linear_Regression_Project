@@ -40,7 +40,30 @@ To achieve this we set up a Trello board and tracked the tasks and our progress,
 The workflow and division of tasks came very naturally to the group since we could apply our strengths individually.
 
 
-# Review of the outcomes
+## Insights into the data
+Here are some pictures of our exploration of the data in python
+
+A plot of price, condition, and grade of the real estate:
+What sparked our interest in this plot was the assumption, that a high grade and a high condition are correlated with another, which appears to be true.
+Furthermore, it was also interesting to see, that there was no low-condition/high-grade cluster, and high prices usually are correlated with higher grades and higher prices, meaning a well-kept real estate is a pricey one.
+
+![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/priceconditiongrade.png)
+
+
+The distribution of a few important variables to our model:
+Even though some of our variables were heavily skewed we decided to keep outliers and scaling of these variables the way they are. We made this decision based on our experience with real estate markets, where outliers and skewed data usually have a meaning to them, and we didn't want to artificially change the influence of these variables on our model.
+
+![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/ditribution.png)
+
+The relationship of price and living space of a unit:
+As expected, price and living space appear positively correlated
+
+![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/sqftprice.png)
+
+We also used a correlation matrix to identify variables that mean the same things and decided to only move forward with one of the variables that were correlated to another.
+
+
+# Summary of the initial findings
 Using SQL, Tableau, and various techniques in Python we were able to gain lots of insights into the real estate market of Washington state, USA. 
 Some things were expected, such as property value correlating with the size of the property and the overall condition. 
 Some other findings were unexpected, one example of that would be that the number of bedrooms in a unit was not good for predicting the actual price of the property - a practice that is quite usual in actual real estate valuations.
@@ -76,28 +99,6 @@ We also kept duplicates in the dataset, assuming that the trend of price develop
 Another topic that wasn't checked was typos. We just assumed these values were unique, which probably skewed the data.
 
 The data is prone to overfitting, therefore we want to remind being cautious of overfitting the data and increasing the number of false positives. 
-
-## Insights into the data
-Here are some pictures of our exploration of the data in python
-
-A plot of price, condition, and grade of the real estate:
-What sparked our interest in this plot was the assumption, that a high grade and a high condition are correlated with another, which appears to be true.
-Furthermore, it was also interesting to see, that there was no low-condition/high-grade cluster, and high prices usually are correlated with higher grades and higher prices, meaning a well-kept real estate is a pricey one.
-
-![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/priceconditiongrade.png)
-
-
-The distribution of a few important variables to our model:
-Even though some of our variables were heavily skewed we decided to keep outliers and scaling of these variables the way they are. We made this decision based on our experience with real estate markets, where outliers and skewed data usually have a meaning to them, and we didn't want to artificially change the influence of these variables on our model.
-
-![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/ditribution.png)
-
-The relationship of price and living space of a unit:
-As expected, price and living space appear positively correlated
-
-![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/sqftprice.png)
-
-We also used a correlation matrix to identify variables that mean the same things and decided to only move forward with one of the variables that were correlated to another.
 
 ## Insights using Tableau
 
