@@ -63,7 +63,7 @@ Using various modeling techniques we were able to create different models that c
  ***
 
 
-We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing the home in reality. Variables that have a high impact on prices like the neighborhood and location were not scored in the dataset and are therefore excluded from the model.
+#### We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing the home in reality. Variables that have a high impact on prices like the neighborhood and location were not scored in the dataset and are therefore excluded from the model.
 
 To increase the precision of the model, additional to-do's would be further removal of outliers and finding a normalization algorithm that can be applied in a model-beneficiary way. The data is prone to overfitting, therefore we want to remind being cautious of overfitting the data and increasing the number of false positives.
 
@@ -90,7 +90,7 @@ As expected, price and living space appear positively correlated
 
 We also used a correlation matrix to identify variables that mean the same things and decided to only move forward with one of the variables that were correlated to another.
 
-## Insights to the data with tableau
+## Insights using Tableau
 
 The business had some questions about the relationship of the data and how it impacts prices over time. The questions and answers can be found [here](https://github.com/Caparisun/Linear_Regression_Project/tree/master/Tableau). To answer these questions quicker and easier, we created a CSV file that included headers and proper datatypes in the field, that can be detected by tableau. The challenge with this part was to not overload the visuals and make the information easy to consume. To achieve this, we decided to not create too many labels and comments in the visualy. 
 
