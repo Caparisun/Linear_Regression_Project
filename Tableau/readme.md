@@ -30,7 +30,7 @@ We used Tableau to create a story that is engaging and delivers all insights. Th
 
 #### 5.) Create a plot to check which are the more selling properties based on the number of bedrooms in the house. Create a plot of bedrooms vs. count of data points.
 
-
+![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/q5.png)
 ***
 
 #### 6.) We want to see the trend in price of houses based on the year built. From our previous plot, we know that most of our customers are interested in three and four bedroom houses. Create a filter on bedroom feature to select those properties and compare the trends in prices using line charts.
