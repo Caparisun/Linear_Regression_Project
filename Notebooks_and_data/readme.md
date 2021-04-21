@@ -9,7 +9,7 @@
 
 - To view the iteration where we normalise the data please click [here](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/4.Iteration_normalized.ipynb)
 
-- To view the application of the second model please click [here](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/5.applying_model_norm.ipynb)
+- To view the application of the normalised models please click [here](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/5.applying_model_norm.ipynb)
 
 
 We exported multiple CSV's during the process, to make importing easier for specific tasks. We provide these files in the folder here for further examination.
