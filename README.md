@@ -102,7 +102,10 @@ We also used a correlation matrix to identify variables that mean the same thing
 
 ## Insights using Tableau
 
-The business had some questions about the relationship of the data and how it impacts prices over time. The questions and answers can be found [here](https://github.com/Caparisun/Linear_Regression_Project/tree/master/Tableau). To answer these questions quicker and easier, we created a CSV file that included headers and proper datatypes in the field, that can be detected by tableau. The challenge with this part was to not overload the visuals and make the information easy to consume. To achieve this, we decided to not create too many labels and comments in the visualy. 
+The business had some questions about the relationship of the data and how it impacts prices over time. The questions and answers can be found [here](https://github.com/Caparisun/Linear_Regression_Project/tree/master/Tableau). To answer these questions quicker and easier, we created a CSV file that included headers and proper datatypes in the field, that can be detected by tableau. The challenge with this part was to not overload the visuals and make the information easy to consume. To achieve this, we decided to not create too many labels and comments in the visuals.
+
+You can view a preview of our Tableau story here:
+
 <div class='tableauPlaceholder' id='viz1618994686440' style='position: relative'><noscript><a href='#'><img alt='Prediciting House Prices With Linear Regression - Data exploration and visualization ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mi&#47;Mid_Project_Data&#47;StoryProject&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Mid_Project_Data&#47;StoryProject' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mi&#47;Mid_Project_Data&#47;StoryProject&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='de' /><param name='filter' value='publish=yes' /></object></div>
 
 
@@ -115,7 +118,7 @@ We imported the data using MySQL workbench but ran into some trouble regarding t
 
 
 Thank you for your time!
-We hope that our insights provide detailed answers to the questions asked. If there are any further questions, please don't hesitate to reach out!
+We hope that our insights provide detailed answers to the questions. If there are any further questions, please don't hesitate to reach out!
 
 All the best
 
