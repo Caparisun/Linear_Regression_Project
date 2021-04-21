@@ -97,7 +97,7 @@ lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ip
 ## Insights using SQL
 
 Since the questions and answers regarding the SQL database are quite complex, I provided in-depth insights in a different file that can be found [here](https://github.com/Caparisun/Linear_Regression_Project/blob/master/SQL_Files/README.md).
-We imported the data using MySQL workbench but ran into some trouble regarding the time to import the data. We tried to load them on a different machine, which went a lot faster and shared the dump file with the project group to allow quick creation of the database. The questions, queries, and answers can be found in the file mentioned above.
+We imported the data using MySQL workbench but ran into some trouble regarding the time to import the data. We tried to load them on a different machine, which went a lot faster and shared the dump file with the project group to allow quick creation of the database. The questions, queries, and answers can be found in the [SQL_Files Folder](https://github.com/Caparisun/Linear_Regression_Project/tree/master/SQL_Files).
 
 ***
 
