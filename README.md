@@ -68,6 +68,9 @@ Using SQL, Tableau, and various techniques in Python we were able to gain lots o
 Some things were expected, such as property value correlating with the size of the property and the overall condition. 
 Some other findings were unexpected, one example of that would be that the number of bedrooms in a unit was not good for predicting the actual price of the property - a practice that is quite usual in actual real estate valuations.
 
+#### Disclaimer For this iteration you are currently looking at, we decided to remove duplicate ID's from the dataset!
+we assumed, that these are multiple sales of the same unit, and decided to only look at recent prices for the model. This has, in fact, decreased precision of the model by 4%. We didn't want to reverse these changes because it refelcts recent prices a lot better, even though the model is now less accurate.
+
 Using various modeling techniques we were able to create different models that can predict the price of a home with only a few features.
 
 ### We applied the following models:
@@ -89,6 +92,7 @@ Using various modeling techniques we were able to create different models that c
 Since we had some time towards the end of the deadline, we decided to run the same models but with the variables rescaled in a way that all values are between 0 and 1. The expected result was, that this will increase precision of the model, since the algorithm tends to give more weight to higher numbers.
 However, it turned out, that the impact is negligible. For the KNN approach, the normalized dataframe produced ambiguous data.
 The results can be viewed in this [notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/4.Iteration_normalized.ipynb)
+
 
 ## Conclusion
 
