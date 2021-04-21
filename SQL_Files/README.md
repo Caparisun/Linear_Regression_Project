@@ -57,7 +57,7 @@ select * from house_price_data;
 
 ```
 alter table house_price_data drop column date;
-select * from house_price_data;
+select * from house_price_data limit 10;
 ```
 
 ### 6.) Use SQL query to find how many rows of data you have.
