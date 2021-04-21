@@ -1,4 +1,4 @@
-# Jupyter Notebooks Containing The Exploration, Data Wrangling And Application Of Linear Regression Models
+# Jupyter Notebooks Containing The Exploration Of The Data, Data Wrangling And Application Of Linear Regression Models
 ### Contents:
 
 To view our exploratory data analysis please click [here](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Notebooks_and_data/Basic_eda.ipynb)
