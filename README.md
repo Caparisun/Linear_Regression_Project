@@ -92,7 +92,7 @@ We also used a correlation matrix to identify variables that mean the same thing
 
 ## Insights to the data with tableau
 
-lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+The business had some questions about the relationship of the data and how it impacts prices over time. The questions and answers can be found [here](https://github.com/Caparisun/Linear_Regression_Project/tree/master/Tableau). To answer these questions quicker and easier, we created a CSV file that included headers and proper datatypes in the field, that can be detected by tableau. The challenge with this part was to not overload the visuals and make the information easy to consume. To achieve this, we decided to not create too many labels and comments in the visualy. 
 
 ## Insights using SQL
 
@@ -105,6 +105,7 @@ We imported the data using MySQL workbench but ran into some trouble regarding t
 Thank you for your time!
 We hope that our insights provide detailed answers to the questions asked. If there are any further questions, please don't hesitate to reach out!
 
-All the best,
+All the best
+
 Francisco, Federico, Thamo
 
