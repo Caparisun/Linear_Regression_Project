@@ -12,7 +12,8 @@ We used Tableau to create a story that is engaging and delivers all insights. Th
 ***
 
 
-#### 2.) Plot the distribution of price vs. number of bedrooms, price vs. number of bathrooms, price vs. condition, price vs. floors, price vs. grade, price vs. view, and price vs. waterfront. State your observation for each one of those graphs. Do you see any trends in prices vs the rest of those variables individually? This can also be used for EDA to identify some data cleaning operations that you might need to perform further.
+#### 2.) Plot the distribution of price vs. number of bedrooms, price vs. number of bathrooms, price vs. condition, price vs. floors, price vs. grade, price vs. view, and price vs. waterfront.
+State your observation for each one of those graphs. Do you see any trends in prices vs the rest of those variables individually? This can also be used for EDA to identify some data cleaning operations that you might need to perform further.
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/pricevsfeatures.png)
 ***
@@ -26,7 +27,8 @@ We used Tableau to create a story that is engaging and delivers all insights. Th
 ***
 
 
-#### 4.) Identify using tableau which state data is presented to you. Use latitude (generated), longitude (generated), and zip code for this. Color code the zip codes based on the prices to see which areas are more expensive than the others.
+#### 4.) Identify using tableau which state data is presented to you. Use latitude (generated), longitude (generated), and zip code for this.
+Color code the zip codes based on the prices to see which areas are more expensive than the others.
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/map1.png)
 ***
@@ -38,17 +40,19 @@ We used Tableau to create a story that is engaging and delivers all insights. Th
 ***
 
 
-#### 6.) We want to see the trend in price of houses based on the year built. From our previous plot, we know that most of our customers are interested in three and four bedroom houses. Create a filter on bedroom feature to select those properties and compare the trends in prices using line charts.
+#### 6.) We want to see the trend in price of houses based on the year built.
+From our previous plot, we know that most of our customers are interested in three and four bedroom houses. Create a filter on bedroom feature to select those properties and compare the trends in prices using line charts.
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/priceperdecade.png)
 ***
 
 
-####  7.) Create calculated field year_built_bins for the column year_built by creating buckets as follows, for houses built between 1900 and 2000 - category A, for houses built between 2000 and 2010 - category B, and for houses built after 2010 - category C. Use IF-ELSE statement to create the bins/buckets. Compare the prices of houses for the three categories.
+####  7.) Create calculated field year_built_bins for the column year_built by creating buckets as follows:
+For houses built between 1900 and 2000 - category A, for houses built between 2000 and 2010 - category B, and for houses built after 2010 - category C. Use IF-ELSE statement to create the bins/buckets. Compare the prices of houses for the three categories.
 
 
-####  8.) Now we want to deep dive into the categories we created in the last question. Let’s see how many properties are in each of the categories. Indicate the numbers as labels on each of the three categories.
-
+####  8.) Now we want to deep dive into the categories we created in the last question. 
+Let’s see how many properties are in each of the categories. Indicate the numbers as labels on each of the three categories.
 
 ####  9.) Deep dive in category A, category B and category C using filters. Identify different characteristics/trends for each of the three categories.
 
