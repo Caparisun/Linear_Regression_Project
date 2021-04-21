@@ -10,6 +10,7 @@ We used Tableau to create a story that is engaging and delivers all insights. Th
 
 - Done with Tableau
 ***
+
 #### 2.) Plot the distribution of price vs. number of bedrooms, price vs. number of bathrooms, price vs. condition, price vs. floors, price vs. grade, price vs. view, and price vs. waterfront. State your observation for each one of those graphs. Do you see any trends in prices vs the rest of those variables individually? This can also be used for EDA to identify some data cleaning operations that you might need to perform further.
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/pricevsfeatures.png)
