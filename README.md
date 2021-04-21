@@ -76,7 +76,6 @@ We also kept duplicates in the dataset, assuming that the trend of price develop
 Another topic that wasn't checked was typos. We just assumed these values were unique, which probably skewed the data.
 
 The data is prone to overfitting, therefore we want to remind being cautious of overfitting the data and increasing the number of false positives. 
-***
 
 ## Insights into the data
 Here are some pictures of our exploration of the data in python
