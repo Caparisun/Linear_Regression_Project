@@ -43,7 +43,8 @@ SET GLOBAL local_infile = 1;
 select * from house_price_data;
 
 
-	#5. Use the alter table command to drop the column date from the database
+	#5. Use the alter table command to drop the column date from the database, as we would not use it in the analysis with SQL. Select all the data from the table to verify if the command worked. Limit your returned results to 10.
+
     
 alter table house_price_data drop column date;
 
