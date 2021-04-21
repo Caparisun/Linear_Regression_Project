@@ -62,8 +62,13 @@ Using various modeling techniques we were able to create different models that c
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/knn.png)
  ***
 
+#### - We also applied the same models to a normalized dataframe, but that did not have an impact on the predictions and R2 scores.
+Since we had some time towards the end of the deadline, we decided to run the same models but with the variables rescaled in a way that all values are between 0 and 1. The expected result was, that this will increase precision of the model, since the algorithm tends to give more weight to higher numbers.
+However, it turned out, that the impact is negligible. For the KNN approach, the normalized dataframe produced ambiguous data.
+The results can be viewed in this [notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/4.Iteration_normalized.ipynb)
 
-#### We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing the home in reality. Variables that have a high impact on prices like the neighborhood and location were not scored in the dataset and are therefore excluded from the model.
+
+### We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing the home in reality. Variables that have a high impact on prices like the neighborhood and location were not scored in the dataset and are therefore excluded from the model.
 
 To increase the precision of the model, additional to-do's would be further removal of outliers and finding a normalization algorithm that can be applied in a model-beneficiary way. The data is prone to overfitting, therefore we want to remind being cautious of overfitting the data and increasing the number of false positives.
 
