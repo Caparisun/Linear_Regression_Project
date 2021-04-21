@@ -95,7 +95,7 @@ This enables the management to make investment decisions in cases were the data 
  ***
  #### 4.) Polynomial regression model with an R2 score of 0.6495 and a RMSE of 214824.37
 
-![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/)
+![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/final.png)
 
  
 After some additional ideas on how we can wrangle the data, we managed to create a refinement that had almost 10% better performance than our initial model.
