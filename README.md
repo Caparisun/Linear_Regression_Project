@@ -82,7 +82,7 @@ Using various modeling techniques we were able to create different models that c
 ***
 #### - K nearest neighbors model with an R2 score of 0.53 and a RMSE of 56254834051.60
  
-![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/knn.png)
+![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/knn1.png)
  ***
 
 #### - We also applied the same models to a normalized dataframe, but that did not have an impact on the predictions and R2 scores.
