@@ -24,6 +24,8 @@ After our analysis was completed, we delivered our insights in a 5-minute presen
 - Exploration of the data: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/1.basic_data_exploration.ipynb)
 - Data cleaning and wrangling: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/2.Datawrangling.ipynb)
 - Applying the models: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/3.Applying_Model.ipynb)
+- Applying the same models to a normalized dataframe [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/5.applying_model_norm.ipynb)
+- Refinement of the first model, exploring multiple different wrangling approaches [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/6.Refinement.ipynb)
 
 We will provide a quick summary of the solutions further below, but first, we want to outline our process.
 
@@ -91,8 +93,17 @@ This enables the management to make investment decisions in cases were the data 
  
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/knn1.png)
  ***
+ #### 4.) Polynomial regression model with an R2 score of 0.6495 and a RMSE of 214824.37
 
-#### We also applied the same models to a normalized dataframe, but that did not have an impact on the predictions and R2 scores.
+![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/)
+
+ 
+After some additional ideas on how we can wrangle the data, we managed to create a refinement that had almost 10% better performance than our initial model.
+This was achieved by using most of the available columns and only removing the date column and applying standardscaler to the data.
+Additional transformations such as log transform and normalisation had almost no effect on the model performance.
+To see our steps to get there, please refer to this [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/6.Refinement.ipynb)
+
+
 Since we had some time towards the end of the deadline, we decided to run the same models but with the variables rescaled in a way that all values are between 0 and 1. The expected result was, that this will increase precision of the model, since the algorithm tends to give more weight to higher numbers.
 However, it turned out, that the impact is negligible. For the KNN approach, the normalized dataframe produced ambiguous data.
 The results can be viewed in this [notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/4.Iteration_normalized.ipynb)
