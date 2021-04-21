@@ -69,22 +69,25 @@ Some things were expected, such as property value correlating with the size of t
 Some other findings were unexpected, one example of that would be that the number of bedrooms in a unit was not good for predicting the actual price of the property - a practice that is quite usual in actual real estate valuations.
 
 ### Disclaimer 
-For this iteration you are currently looking at, we decided to remove duplicate ID's from the dataset!
-We assumed, that these are multiple sales of the same unit, and decided to only look at recent prices for the model. This has, in fact, decreased precision of the model by 4%. We didn't want to reverse these changes because it refelcts recent prices a lot better, even though the model is now less accurate.
+For this iteration of our prediction models you are currently looking at, we decided to remove duplicate ID's from the dataset.
+We assumed, that these are multiple sales of the same unit, and decided to only look at recent prices for the model. This has, in fact, decreased accuracy of the model by 4%. We didn't want to reverse these changes because it refelcts recent prices a lot better, even though the model is now less accurate.
 
-Using various modeling techniques we were able to create different models that can predict the price of a home with only a few features.
+Using various modeling techniques we were able to create different models that can predict the price of a home with only very few features.
+This enables the management to make investment decisions in cases were the data is incomplete or unreliable. We view this as a feature of the model. 
 
-## We applied the following models:
-#### - A linear regression model with an R2 score of 0.6076 and a RMSE of 217122.00
+# Model application
+### The following models were used:
+
+#### - 1.) A linear regression model with an R2 score of 0.6076 and a RMSE of 217122.00
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/linear.png)
 ***
 
-#### - Polynomial regression model with an R2 score of 0.6037 and a RMSE of 217122.00
+#### - 2.) Polynomial regression model with an R2 score of 0.6037 and a RMSE of 217122.00
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/polynomal.png)
 ***
-#### - K nearest neighbors model with an R2 score of 0.53 and a RMSE of 56254834051.60
+#### - 3.) K nearest neighbors model with an R2 score of 0.53 and a RMSE of 56254834051.60
  
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/knn1.png)
  ***
