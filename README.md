@@ -67,11 +67,16 @@ Since we had some time towards the end of the deadline, we decided to run the sa
 However, it turned out, that the impact is negligible. For the KNN approach, the normalized dataframe produced ambiguous data.
 The results can be viewed in this [notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/4.Iteration_normalized.ipynb)
 
+## Conclusion
 
-### We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing the home in reality. Variables that have a high impact on prices like the neighborhood and location were not scored in the dataset and are therefore excluded from the model.
+We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing the home in reality. Variables that have a high impact on prices like the neighborhood and location were not scored in the dataset and are therefore excluded from the model.
 
-To increase the precision of the model, additional to-do's would be further removal of outliers and finding a normalization algorithm that can be applied in a model-beneficiary way. The data is prone to overfitting, therefore we want to remind being cautious of overfitting the data and increasing the number of false positives.
+To increase the precision of the model, additional to-do's would be further removal of outliers and finding a normalization algorithm that can be applied in a model-beneficiary way. 
+We also kept duplicates in the dataset, assuming that the trend of price development would lead to higher precision. In a further iterations, we would remove those. 
+Another topic that wasn't checked was typos. We just assumed these values were unique, which probably skewed the data.
 
+The data is prone to overfitting, therefore we want to remind being cautious of overfitting the data and increasing the number of false positives. 
+***
 
 ## Insights into the data
 Here are some pictures of our exploration of the data in python
