@@ -70,7 +70,7 @@ Some other findings were unexpected, one example of that would be that the numbe
 
 Using various modeling techniques we were able to create different models that can predict the price of a home with only a few features.
 
-### The models we applied are:
+### We applied the following models:
 #### - A linear regression model with an R2 score of 0.6076 and a RMSE of 217122.00
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/linear.png)
