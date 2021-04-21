@@ -78,16 +78,16 @@ This enables the management to make investment decisions in cases were the data 
 # Model application
 ### The following models were used:
 
-#### - 1.) A linear regression model with an R2 score of 0.6076 and a RMSE of 217122.00
+#### 1.) A linear regression model with an R2 score of 0.6076 and a RMSE of 217122.00
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/linear.png)
 ***
 
-#### - 2.) Polynomial regression model with an R2 score of 0.6037 and a RMSE of 217122.00
+#### 2.) Polynomial regression model with an R2 score of 0.6037 and a RMSE of 217122.00
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/polynomal.png)
 ***
-#### - 3.) K nearest neighbors model with an R2 score of 0.53 and a RMSE of 56254834051.60
+#### 3.) K nearest neighbors model with an R2 score of 0.53 and a RMSE of 56254834051.60
  
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/knn1.png)
  ***
