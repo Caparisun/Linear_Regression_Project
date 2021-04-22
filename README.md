@@ -139,6 +139,13 @@ Detailed documentation of our process can be found in the [SQL_Files Folder](htt
 ***
 
 ## Last words
+#### Insights delivered
+
+- Don't use the model solely to make investment decisions, but rather for confirming a price range of an asset
+- Invest with an anticyclical approach
+- Maximize living space instead of bedrooms to increase price
+- Bellevue is the most expensive area
+- We were unable to identify a single variable the allows to predict higher prices  
 
 Thank you for your time!
 We hope that our insights provide detailed answers to the questions. If there are any further questions, please don't hesitate to reach out!
