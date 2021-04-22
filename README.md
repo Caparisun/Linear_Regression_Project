@@ -123,7 +123,7 @@ We could not identify a causal relationship between high prices and a single var
 
 ## Insights using Tableau
 
-The business had some questions about the relationship of the data and how it impacts prices over time. We created a Tableau Public story for that, which can be found [here](https://public.tableau.com/profile/federico.giuliani#!/vizhome/Mid_Project_Data/StoryProject?publish=yes)
+The business had some questions about the relationship of the data and how it impacts prices over time. We created a Tableau Public story for that, that can be viewes [here](https://public.tableau.com/profile/federico.giuliani#!/vizhome/Mid_Project_Data/StoryProject?publish=yes)
 
 A detailed overview of the questions and our answers can be found in the [Tableau-Folder](https://github.com/Caparisun/Linear_Regression_Project/tree/master/Tableau)
 
