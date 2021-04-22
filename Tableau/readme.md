@@ -19,11 +19,12 @@ State your observation for each one of those graphs. Do you see any trends in pr
 ***
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/pricevsgrade.png)
 ***
-
-```
-
-Insight 1
-```
+![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/qn51.png)
+***
+![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/qn52.png)
+***
+![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/qn53.png)
+***
 
 
 
