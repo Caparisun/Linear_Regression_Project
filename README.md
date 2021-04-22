@@ -33,7 +33,7 @@ After our analysis was completed, we delivered our insights in a 5-minute presen
 - Slides with the business implications: [here](https://docs.google.com/presentation/d/1mR-rkAEYC1kN9f_6xhFMIaHyXNbBA2OWy5GpS1C8iw8/edit#slide=id.gc59bf226dc_0_2)
 - A live presentation of our conclusions: Recorded and uploaded later to the repo
 - Questions and answers using SQL: Our [SQL_File](https://github.com/Caparisun/Linear_Regression_Project/blob/master/SQL_Files/Regression%20project.sql) and the [solutions](https://github.com/Caparisun/Linear_Regression_Project/blob/master/SQL_Files/README.md)
-- A Tableau dashboard: [Here](https://public.tableau.com/profile/federico.giuliani#!/vizhome/Mid_Project_Data/StoryProject?publish=yes)
+- A Tableau dashboard: [Here](https://public.tableau.com/profile/federico.giuliani#!/vizhome/Mid_Project_Data/StoryProject?publish=yes) and [solutions](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Tableau/readme.md)
 - Exploration of the data: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/1.basic_data_exploration.ipynb)
 - Data cleaning and wrangling: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/2.Datawrangling.ipynb)
 - Applying the models: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/3.Applying_Model.ipynb)
