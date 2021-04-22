@@ -17,7 +17,7 @@ A project by [Francisco Ebeling](https://github.com/ebelingbarros), [Federico Gi
 
 
 ## Introduction to the project and tools used
-The business analytics Team Fleaur Delacour, aka the authors of this project, nwere asked to answer some business questions for a real estate company using a dataset of almost 22.000 real estate sales in Washington state, USA.
+The business analytics team Fleur Delacour, aka the authors of this project, nwere asked to answer some business questions for a real estate company using a dataset of almost 22.000 real estate sales in Washington state, USA.
 
 To answer the basic questions of the business, we imported the data into a SQL database using MySQL and the MySQL Workbench client.
 
