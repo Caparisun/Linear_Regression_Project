@@ -1,4 +1,4 @@
-# Prediciting Real Estate Prices With Linear Regression
+# Prediciting Real Estate Prices With Machine Learning
 A project by [Francisco Ebeling](https://github.com/ebelingbarros), [Federico Giuliani](https://github.com/FedericoGi) and [Thamo Koeper](https://github.com/Caparisun).
 
 ![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/real-state-project.jpg)
@@ -9,7 +9,7 @@ A project by [Francisco Ebeling](https://github.com/ebelingbarros), [Federico Gi
 - [Deliverables](#Deliverables)
 - [Method and approach](#Method-and-approach)
 - [Initial insights](#Insights-into-the-data)
-- [The models and evaluation](#Model-application)
+- [Models and evaluation](#Model-application)
 - [Tableau](#Insights-using-Tableau)
 - [SQL](#-Insights-using-SQL)
 - [Last Words](#Last-words)
