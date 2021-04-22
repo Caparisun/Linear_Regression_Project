@@ -86,7 +86,7 @@ Some other findings were unexpected, one example of that would be that the numbe
 After the initial exploration, we evaluated variables for the model and decided on features used for the first iteration. We did this based on OLS regression outcomes and filtering for high coefficients.
 
 
-# Model application
+## Model application
 ### The following models were generated:
 
 #### 1.) A linear regression model with an R2 score of 0.6076 and an RMSE of 217122.00
