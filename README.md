@@ -3,6 +3,12 @@ A project done by [Francisco Ebeling](https://github.com/ebelingbarros), [Federi
 
 ![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/real-state-project.jpg)
 
+# Contents:
+
+- [Introduction](#Introduction-to-the-project-and-tools-used)
+
+
+
 ## Introduction to the project and tools used
 As analysts of a real estate company, we were asked to answer some business questions using a dataset of almost 22.000 real estate sales in Washington state, USA.
 
