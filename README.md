@@ -6,6 +6,10 @@ A project done by [Francisco Ebeling](https://github.com/ebelingbarros), [Federi
 # Contents:
 
 - [Introduction](#Introduction-to-the-project-and-tools-used)
+- [Deliverables](#Deliverables)
+- [Method and approach](#Method-and-approach)
+- [Initial insights](#MInsights-into-the-data)
+- [The models and evaluation](#Model-application)
 
 
 
@@ -72,16 +76,12 @@ We also used a correlation matrix to identify variables that mean the same thing
 
 
 # Summary of the initial findings
-Using SQL, Tableau, and various techniques in Python we were able to gain lots of insights into the real estate market of Washington state, USA. 
+Using Python we were able to gain lots of insights into the real estate market of Washington state, USA. 
 Some things were expected, such as property value correlating with the size of the property and the overall condition. 
 Some other findings were unexpected, one example of that would be that the number of bedrooms in a unit was not good for predicting the actual price of the property - a practice that is quite usual in actual real estate valuations.
 
-### Disclaimer 
-For this iteration of our prediction models you are currently looking at, we decided to remove duplicate ID's from the dataset.
-We assumed, that these are multiple sales of the same unit, and decided to only look at recent prices for the model. This has, in fact, decreased accuracy of the model by 4%. We didn't want to reverse these changes because it refelcts recent prices a lot better, even though the model is now less accurate.
+After the initial exploration we evaluated variables for the model and decided on features used for the first iteration.
 
-Using various modeling techniques we were able to create different models that can predict the price of a home with only very few features.
-This enables the management to make investment decisions in cases were the data is incomplete or unreliable. We view this as a feature of the model. 
 
 # Model application
 ### The following models were used:
@@ -103,16 +103,10 @@ This enables the management to make investment decisions in cases were the data 
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/final.png)
 
- 
-After some additional ideas on how we can wrangle the data, we managed to create a refinement that had almost 10% better performance than our initial model.
-This was achieved by using most of the available columns and only removing the date column and applying standardscaler to the data.
-Additional transformations such as log transform and normalisation had almost no effect on the model performance.
-To see our steps to get there, please refer to this [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/6.Refinement.ipynb)
+Our initial model already had a reasonable accuracy measured with the R2 score. 
+We managed to improve that score with further wrangling of the data. This was achieved by using most of the available columns and only removing the date column and applying a scaling of variables to the data. 
 
-
-Since we had some time towards the end of the deadline, we decided to run the same models but with the variables rescaled in a way that all values are between 0 and 1. The expected result was, that this will increase precision of the model, since the algorithm tends to give more weight to higher numbers.
-However, it turned out, that the impact is negligible. For the KNN approach, the normalized dataframe produced ambiguous data.
-The results can be viewed in this [notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/4.Iteration_normalized.ipynb)
+If you want to get insights into the process please check the [notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/6.Refinement.ipynb)
 
 
 ## Conclusion
