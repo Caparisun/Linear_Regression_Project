@@ -87,7 +87,7 @@ After the initial exploration, we evaluated variables for the model and decided 
 
 
 # Model application
-### The following models were used:
+### The following models were generated:
 
 #### 1.) A linear regression model with an R2 score of 0.6076 and an RMSE of 217122.00
 
@@ -118,6 +118,7 @@ We do believe that the model is quite sufficient, but can't be used solely to pr
 
 To increase the precision of the model, the variables that include mostly zero values have to be resampled and balanced. We also assume that binning more values into groups could increase accuracy. 
 Another topic that wasn't checked was typos. We just assumed all values were unique, which is likely untrue.
+We could not identify a causal relationship between high prices and a single variable, it seems like to correlation of multiple values lead to higher prices.
 
 
 ## Insights using Tableau
