@@ -8,7 +8,7 @@ A project done by [Francisco Ebeling](https://github.com/ebelingbarros), [Federi
 - [Introduction](#Introduction-to-the-project-and-tools-used)
 - [Deliverables](#Deliverables)
 - [Method and approach](#Method-and-approach)
-- [Initial insights](#MInsights-into-the-data)
+- [Initial insights](#Insights-into-the-data)
 - [The models and evaluation](#Model-application)
 - [Tableau](#Insights-using-Tableau)
 - [SQL](#-Insights-using-SQL)
