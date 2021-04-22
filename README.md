@@ -10,6 +10,10 @@ A project done by [Francisco Ebeling](https://github.com/ebelingbarros), [Federi
 - [Method and approach](#Method-and-approach)
 - [Initial insights](#MInsights-into-the-data)
 - [The models and evaluation](#Model-application)
+- [Tableau](#Insights-using-Tableau)
+- [SQL](#-Insights-using-SQL)
+- [Last Words](#Last-words)
+***
 
 
 
