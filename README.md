@@ -30,8 +30,8 @@ After our first approach, we finetuned the model to increase the precision of ou
 After our analysis was completed, we delivered our insights in a 5-minute presentation, focussing on the business implications of our results. 
 
 ## Deliverables
-- Slides with the output with the business implications: [here](https://docs.google.com/presentation/d/1mR-rkAEYC1kN9f_6xhFMIaHyXNbBA2OWy5GpS1C8iw8/edit#slide=id.gc59bf226dc_0_2)
-- A live presentation of our conclusions: Recorded live and uploaded later to the repo
+- Slides with the business implications: [here](https://docs.google.com/presentation/d/1mR-rkAEYC1kN9f_6xhFMIaHyXNbBA2OWy5GpS1C8iw8/edit#slide=id.gc59bf226dc_0_2)
+- A live presentation of our conclusions: Recorded and uploaded later to the repo
 - Questions and answers using SQL: Our [SQL_File](https://github.com/Caparisun/Linear_Regression_Project/blob/master/SQL_Files/Regression%20project.sql) and the [solutions](https://github.com/Caparisun/Linear_Regression_Project/blob/master/SQL_Files/README.md)
 - A Tableau dashboard: [Here](https://public.tableau.com/profile/federico.giuliani#!/vizhome/Mid_Project_Data/StoryProject?publish=yes)
 - Exploration of the data: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/1.basic_data_exploration.ipynb)
