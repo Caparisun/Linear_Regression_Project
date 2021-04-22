@@ -1,5 +1,5 @@
 # Prediciting Real Estate Prices With Linear Regression
-A project done by [Francisco Ebeling](https://github.com/ebelingbarros), [Federico Giuliani](https://github.com/FedericoGi) and [Thamo Koeper](https://github.com/Caparisun).
+A project by [Francisco Ebeling](https://github.com/ebelingbarros), [Federico Giuliani](https://github.com/FedericoGi) and [Thamo Koeper](https://github.com/Caparisun).
 
 ![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/real-state-project.jpg)
 
@@ -14,7 +14,6 @@ A project done by [Francisco Ebeling](https://github.com/ebelingbarros), [Federi
 - [SQL](#-Insights-using-SQL)
 - [Last Words](#Last-words)
 ***
-
 
 
 ## Introduction to the project and tools used
@@ -38,7 +37,7 @@ After our analysis was completed, we delivered our insights in a 5-minute presen
 - Exploration of the data: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/1.basic_data_exploration.ipynb)
 - Data cleaning and wrangling: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/2.Datawrangling.ipynb)
 - Applying the models: [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/3.Applying_Model.ipynb)
-- Applying the same models to a normalized dataframe [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/5.applying_model_norm.ipynb)
+- Applying the same models to a normalized data frame [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/5.applying_model_norm.ipynb)
 - Refinement of the first model, exploring multiple different wrangling approaches [Jupyter Notebook](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Notebooks_and_data/6.Refinement.ipynb)
 
 We will provide a quick summary of the solutions further below, but first, we want to outline our process.
@@ -79,31 +78,31 @@ As expected, price and living space appear positively correlated
 We also used a correlation matrix to identify variables that mean the same things and decided to only move forward with one of the variables that were correlated to another.
 
 
-# Summary of the initial findings
+## Summary of the initial findings
 Using Python we were able to gain lots of insights into the real estate market of Washington state, USA. 
 Some things were expected, such as property value correlating with the size of the property and the overall condition. 
 Some other findings were unexpected, one example of that would be that the number of bedrooms in a unit was not good for predicting the actual price of the property - a practice that is quite usual in actual real estate valuations.
 
-After the initial exploration we evaluated variables for the model and decided on features used for the first iteration.
+After the initial exploration, we evaluated variables for the model and decided on features used for the first iteration.
 
 
 # Model application
 ### The following models were used:
 
-#### 1.) A linear regression model with an R2 score of 0.6076 and a RMSE of 217122.00
+#### 1.) A linear regression model with an R2 score of 0.6076 and an RMSE of 217122.00
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/linear.png)
 ***
 
-#### 2.) Polynomial regression model with an R2 score of 0.6037 and a RMSE of 217122.00
+#### 2.) Polynomial regression model with an R2 score of 0.6037 and an RMSE of 217122.00
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/polynomal.png)
 ***
-#### 3.) K nearest neighbors model with an R2 score of 0.53 and a RMSE of 56254834051.60
+#### 3.) K nearest neighbors model with an R2 score of 0.53 and an RMSE of 56254834051.60
  
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/knn1.png)
  ***
- #### 4.) Polynomial regression model with an R2 score of 0.6495 and a RMSE of 214824.37
+ #### 4.) Polynomial regression model with an R2 score of 0.6495 and an RMSE of 214824.37
 
 ![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/final.png)
 
@@ -115,19 +114,19 @@ If you want to get insights into the process please check the [notebook](https:/
 
 ## Conclusion
 
-We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing the home in reality. Variables that have a high impact on prices like the neighborhood and location were not scored in the dataset and are therefore excluded from the model.
+We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing the home in reality. This is due to the large RSME error in the model. Additionally, variables that have a high impact on real estate prices like the neighborhood, location, and urban development were not scored in the dataset and are therefore excluded from the model.
 
-To increase the precision of the model, additional to-do's would be further removal of outliers and finding a normalization algorithm that can be applied in a model-beneficiary way. 
-We also kept duplicates in the dataset, assuming that the trend of price development would lead to higher precision. In a further iterations, we would remove those. 
-Another topic that wasn't checked was typos. We just assumed these values were unique, which probably skewed the data.
+To increase the precision of the model, the variables that include mostly zero values have to be resampled and balanced. We also assume that binning more values into groups could increase accuracy. 
+Another topic that wasn't checked was typos. We just assumed all values were unique, which is likely untrue.
 
-The data is prone to overfitting, therefore we want to remind being cautious of overfitting the data and increasing the number of false positives. 
 
 ## Insights using Tableau
 
-The business had some questions about the relationship of the data and how it impacts prices over time. The questions and answers can be found [here](https://github.com/Caparisun/Linear_Regression_Project/tree/master/Tableau). To answer these questions quicker and easier, we created a CSV file that included headers and proper datatypes in the field, that can be detected by tableau. The challenge with this part was to not overload the visuals and make the information easy to consume. To achieve this, we decided to not create too many labels and comments in the visuals.
+The business had some questions about the relationship of the data and how it impacts prices over time. We created a Tableau Public story for that, which can be found [here](https://public.tableau.com/profile/federico.giuliani#!/vizhome/Mid_Project_Data/StoryProject?publish=yes)
 
-You can view a preview of our Tableau story here:
+A detailed overview of the questions and our answers can be found in the [Tableau-Folder](https://github.com/Caparisun/Linear_Regression_Project/tree/master/Tableau)
+
+You can view a preview of our Tableau story below:
 
 <div class='tableauPlaceholder' id='viz1618994686440' style='position: relative'><noscript><a href='#'><img alt='Prediciting House Prices With Linear Regression - Data exploration and visualization ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mi&#47;Mid_Project_Data&#47;StoryProject&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Mid_Project_Data&#47;StoryProject' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mi&#47;Mid_Project_Data&#47;StoryProject&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='de' /><param name='filter' value='publish=yes' /></object></div>
 
@@ -135,7 +134,7 @@ You can view a preview of our Tableau story here:
 ## Insights using SQL
 
 Since the questions and answers regarding the SQL database are quite complex, I provided in-depth insights in a different file that can be found [here](https://github.com/Caparisun/Linear_Regression_Project/blob/master/SQL_Files/README.md).
-We imported the data using MySQL workbench but ran into some trouble regarding the time to import the data. We tried to load them on a different machine, which went a lot faster and shared the dump file with the project group to allow quick creation of the database. The questions, queries, and answers can be found in the [SQL_Files Folder](https://github.com/Caparisun/Linear_Regression_Project/tree/master/SQL_Files).
+Detailed documentation of our process can be found in the [SQL_Files Folder](https://github.com/Caparisun/Linear_Regression_Project/tree/master/SQL_Files).
 
 ***
 
@@ -147,4 +146,3 @@ We hope that our insights provide detailed answers to the questions. If there ar
 All the best
 
 Francisco, Federico, Thamo
-
