@@ -48,7 +48,7 @@ Our Process in a picture:
 
 ![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/Process.jpg)
 
-It was important to us to keep a flexible structure and an agile approach, to be able to handle bugs and errors that occurred during the process.
+It was important to us to keep a flexible structure and an agile approach, to be able to handle bugs and errors that occurred during the process, since we were unfamiliar with the data.
 
 To achieve this we set up a Trello board and tracked the tasks and our progress, the final board can be viewed [here](https://trello.com/b/8Yu5xqIA/fleur-delacour).
 
@@ -66,16 +66,16 @@ Furthermore, it was also interesting to see, that there was no low-condition/hig
 
 
 The distribution of a few important variables to our model:
-Even though some of our variables were heavily skewed we decided to keep outliers and scaling of these variables the way they are. We made this decision based on our experience with real estate markets, where outliers and skewed data usually have a meaning to them, and we didn't want to artificially change the influence of these variables on our model.
+Even though some of our variables had large outliers, we decided to keep them the way they are. We made this decision based on our experience with real estate markets, where outliers and skewed data usually have a meaning to them, and we didn't want to artificially change the influence of these variables on our model. In a later iteration it turned out to increase accuracy of the model, when some data ins transformed and outliers get removed.
 
 ![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/ditribution.png)
 
 The relationship of price and living space of a unit:
-As expected, price and living space appear positively correlated
+As expected, price and living space appear positively correlated.
 
 ![Picture](https://github.com/Caparisun/data_mid_bootcamp_project_regression/blob/master/Pictures/sqftprice.png)
 
-We also used a correlation matrix to identify variables that mean the same things and decided to only move forward with one of the variables that were correlated to another.
+We also used a correlation matrix to identify variables that mean the same things and decided to only move forward with one of those correlated variables.
 
 
 ## Summary of the initial findings
@@ -83,7 +83,7 @@ Using Python we were able to gain lots of insights into the real estate market o
 Some things were expected, such as property value correlating with the size of the property and the overall condition. 
 Some other findings were unexpected, one example of that would be that the number of bedrooms in a unit was not good for predicting the actual price of the property - a practice that is quite usual in actual real estate valuations.
 
-After the initial exploration, we evaluated variables for the model and decided on features used for the first iteration.
+After the initial exploration, we evaluated variables for the model and decided on features used for the first iteration. We did this based on OLS regression outcomes and filtering for high coefficients.
 
 
 # Model application
@@ -117,7 +117,6 @@ If you want to get insights into the process please check the [notebook](https:/
 We do believe that the model is quite sufficient, but can't be used solely to predict the actual sales price of a home without viewing the home in reality. This is due to the large RSME error in the model. Additionally, variables that have a high impact on real estate prices like the neighborhood, location, and urban development were not scored in the dataset and are therefore excluded from the model.
 
 To increase the precision of the model, the variables that include mostly zero values have to be resampled and balanced. We also assume that binning more values into groups could increase accuracy. 
-Another topic that wasn't checked was typos. We just assumed all values were unique, which is likely untrue.
 We could not identify a causal relationship between high prices and a single variable, it seems like to correlation of multiple values lead to higher prices.
 
 
