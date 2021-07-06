@@ -148,7 +148,3 @@ Detailed documentation of our process can be found in the [SQL_Files Folder](htt
 
 Thank you for your time!
 We hope that our insights provide detailed answers to the questions. If there are any further questions, please don't hesitate to reach out!
-
-All the best
-
-Francisco, Federico, Thamo
